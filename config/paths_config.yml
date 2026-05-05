@@ -1,0 +1,15 @@
+user_name: felipemkautzmann@gmail.com
+client_theme: databricks_vatenfall
+
+
+catalog: vatenfall_dev
+
+
+schemas: 
+  raw: raw
+  refined: refined
+  analytics: analytics
+
+volumes:
+  landing: landing
+  checkpoints: checkpointsa
