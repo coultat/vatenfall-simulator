@@ -10,6 +10,30 @@ schemas:
   refined: refined
   analytics: analytics
 
+
 volumes:
   landing: landing
-  checkpoints: checkpointsa
+  checkpoint: checkpoint
+
+
+landing:
+  market_prices: market_prices
+  weather: weather
+  grid_events: grid_events
+  references: references
+
+
+checkpoint:
+  market_prices: market_prices
+  weather: weather
+  grid_events: grid_events
+  references: references
+
+
+tables:
+  bronze:
+    market_prices: market_prices
+    weather: weather
+    grid_events: grid_events
+    references: references
+

@@ -1,0 +1,11 @@
+bundle:
+  name: vatenfall-simulator
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    default: true
+    workspace:
+      host: https://dbc-ca12aaaa-2f34.cloud.databricks.com/
