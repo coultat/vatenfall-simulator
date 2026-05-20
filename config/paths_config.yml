@@ -32,8 +32,36 @@ checkpoint:
 
 tables:
   bronze:
-    market_prices: market_prices
-    weather: weather
-    grid_events: grid_events
-    references: references
+    market_prices: bronze_market_prices
+    weather: bronze_weather
+    grid_events: bronze_grid_events
+    references: bronze_references
+
+  silver:
+    market_prices: silver_market_prices
+    weather: silver_weather
+    grid_events: silver_grid_events
+    regional_operations_base: silver_regional_operations_base
+
+
+  gold:
+    daily_market_summary: daily_market_summary
+    regional_operations_dashboard: gold_regional_operations_dashboard
+    grid_incident_summary: grid_incident_summary
+    weather_impact_summary: weather_impact_summary
+
+
+  views:
+    regional_operations_dashboard: vw_regional_operations_dashboard
+    daily_incident_trends: vw_daily_incident_trends
+    market_weather_overview: vw_market_weather_overview
+
+
+  references:
+    asset_reference: asset_reference
+    event_type_reference: event_type_reference
+    market_reference: market_reference
+    region_reference: region_reference
+    weather_alert_reference: weather_alert_reference
+
 
